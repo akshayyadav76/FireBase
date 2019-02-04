@@ -2,24 +2,27 @@ package com.example.akshay.firebase;
 
 public class User
 {
-    private String name;
-
-    public String getName() {
-        return name;
+    public String getFirst() {
+        return first;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFirst(String first) {
+        this.first = first;
     }
 
-    public String getAddress() {
-        return address;
+    public String getSecond() {
+        return second;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setSecond(String second) {
+        this.second = second;
     }
 
-    private String address;
+    private String first;
+    private String second;
+
+
+
+
 }
 
